@@ -23,10 +23,10 @@ name                     : "CKtrace"
 description              : "나를 위한, 누군가를 위한 기록"
 url                      : "https://cktrace.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+repository               : "CKtrace/CKtrace.github.io"
+teaser                   : "/assets/images/500x300.png"
+logo                     : "/assets/images/bobby_hill_logo.gif"
+masthead_title           : "CKtrace's DevLog"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
