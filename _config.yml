@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "aqua" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "ko-KR"
@@ -24,7 +24,7 @@ description              : "나를 위한, 누군가를 위한 기록"
 url                      : "https://cktrace.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "CKtrace/CKtrace.github.io"
-teaser                   : "/assets/images/500x300.png"
+teaser                   : "/assets/images/bobby_hill_logo.gif"
 logo                     : "/assets/images/bobby_hill_logo.gif"
 masthead_title           : "CKtrace's DevLog"
 breadcrumbs              : true
