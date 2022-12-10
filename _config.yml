@@ -103,7 +103,7 @@ analytics:
 # Site Author
 author:
   name             : "CKtrace"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/bobby_hill_avatar.gif"
   bio              : "I am an **amazing** person."
   location         : "Seoul, Korea"
   email            :
