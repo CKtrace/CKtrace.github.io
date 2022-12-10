@@ -4,6 +4,9 @@ title: '[AI] 인공지능 / 머신러닝 / 딥러닝 차이'
 categories: AI
 tag: [AI, ML, DL]
 toc: true
+author_profile: true
+sidebar:
+    nav: "docs"
 ---
 
 **Purpose of this Posting**
