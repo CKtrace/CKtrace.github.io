@@ -1,9 +1,6 @@
 ---
+layout: single
 title: '[AI] 인공지능 / 머신러닝 / 딥러닝 차이'
-layout: post
-categories: ai
-tags: AI
-comments: true
 ---
 
 **Purpose of this Posting**

@@ -15,10 +15,10 @@
 minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "KR"
+locale                   : "ko-KR"
 title                    : "CKtrace's DevLog"
-title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+title_separator          : "|"
+subtitle                 : "To Be a Better AI Researcher"
 name                     : "CKtrace"
 description              : "나를 위한, 누군가를 위한 기록"
 url                      : "https://cktrace.github.io/"
@@ -27,12 +27,12 @@ repository               : "CKtrace/CKtrace.github.io"
 teaser                   : "/assets/images/500x300.png"
 logo                     : "/assets/images/bobby_hill_logo.gif"
 masthead_title           : "CKtrace's DevLog"
-# breadcrumbs            : false # true, false (default)
+breadcrumbs              : true
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider               : "discourse" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "CKtrace"
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -106,7 +106,7 @@ author:
   avatar           : "/assets/images/bobby_hill_avatar.gif"
   bio              : "나를 위한, 누군가를 위한 흔적"
   location         : "Seoul, Korea"
-  email            :
+  email            : "brandonkimwork@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -285,6 +285,9 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments:  true
       share: true
       related: true
+      show_date: true
+
+date_format: "%Y-%m-%d"
