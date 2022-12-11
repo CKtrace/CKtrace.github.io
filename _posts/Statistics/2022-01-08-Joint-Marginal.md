@@ -1,9 +1,12 @@
 ---
-title: '[Statistics] 결합분포와 주변분포'
-layout: post
-categories: statistics
-tags: Statistics
-comments: true
+layout: single
+title:  '[Statistics] 결합분포와 주변분포'
+categories: Statistics
+tag: [Statistics]
+toc: true
+author_profile: true
+sidebar:
+    nav: "docs"
 ---
 
 **Purpose of this Posting**

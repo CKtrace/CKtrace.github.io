@@ -1,9 +1,12 @@
 ---
+layout: single
 title: '[Statistics] 확률의 정리'
-layout: post
-categories: statistics
-tags: Statistics
-comments: true
+categories: Statistics
+tag: [Statistics]
+toc: true
+author_profile: true
+sidebar:
+    nav: "docs"
 ---
 
 **Purpose of this Posting**

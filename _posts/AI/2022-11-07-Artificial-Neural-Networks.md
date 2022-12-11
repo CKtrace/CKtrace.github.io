@@ -1,9 +1,12 @@
 ---
+layout: single
 title: '[AI] 간단하게 알아보는 인공신경망의 작동 방식'
-layout: post
-categories: ai
-tags: AI
-comments: true
+categories: AI
+tag: [AI]
+toc: true
+author_profile: true
+sidebar:
+    nav: "docs"
 ---
 
 **Purpose of this Posting**

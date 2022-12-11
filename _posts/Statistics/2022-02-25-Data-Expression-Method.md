@@ -1,9 +1,12 @@
 ---
-title: '[Statistics] 수치형 자료 표현 방법 vs 범주형 자료 표현 방법'
-layout: post
-categories: statistics
-tags: Statistics
-comments: true
+layout: single
+title:  '[Statistics] 수치형 자료 표현 방법 vs 범주형 자료 표현 방법'
+categories: Statistics
+tag: [Statistics]
+toc: true
+author_profile: true
+sidebar:
+    nav: "docs"
 ---
 
 **Purpose of this Posting**

@@ -1,9 +1,12 @@
 ---
+layout: single
 title: '[Statistics] 정규 분포와 표준 정규 분포'
-layout: post
-categories: statistics
-tags: Statistics
-comments: true
+categories: Statistics
+tag: [Statistics]
+toc: true
+author_profile: true
+sidebar:
+    nav: "docs"
 ---
 
 **Purpose of this Posting**

@@ -1,9 +1,12 @@
 ---
+layout: single
 title: '[Statistics] 몬티홀 문제 (Key : 조건부 확률)'
-layout: post
-categories: statistics
-tags: Statistics
-comments: true
+categories: Statistics
+tag: [Statistics]
+toc: true
+author_profile: true
+sidebar:
+    nav: "docs"
 ---
 
 **Purpose of this Posting**

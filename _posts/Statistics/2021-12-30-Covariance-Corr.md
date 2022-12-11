@@ -1,10 +1,14 @@
 ---
+layout: single
 title: '[Statistics] 공분산 & 상관 계수 (feat. 산점도)'
-layout: post
-categories: statistics
-tags: Statistics
-comments: true
+categories: Statistics
+tag: [Statistics]
+toc: true
+author_profile: true
+sidebar:
+    nav: "docs"
 ---
+
 
 **Purpose of this Posting**
 - 공분산과 상관 계수에 대해 알아봅니다.

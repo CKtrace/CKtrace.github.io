@@ -1,9 +1,12 @@
 ---
+layout: single
 title: '[Statistics] 이항 분포 vs 초기하 분포 (feat. 야코프 베르누이)'
-layout: post
-categories: statistics
-tags: Statistics
-comments: true
+categories: Statistics
+tag: [Statistics]
+toc: true
+author_profile: true
+sidebar:
+    nav: "docs"
 ---
 
 **Purpose of this Posting**

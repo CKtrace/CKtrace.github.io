@@ -1,10 +1,14 @@
 ---
-title: '[Statistics] 변동 계수'
-layout: post
-categories: statistics
-tags: Statistics
-comments: true
+layout: single
+title:  '[Statistics] 변동 계수'
+categories: Statistics
+tag: [Statistics]
+toc: true
+author_profile: true
+sidebar:
+    nav: "docs"
 ---
+
 
 **Purpose of this Posting**
 - 변동 계수에 대해 알아봅니다.

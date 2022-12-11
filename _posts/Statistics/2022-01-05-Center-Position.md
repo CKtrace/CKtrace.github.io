@@ -1,9 +1,12 @@
 ---
+layout: single
 title: '[Statistics] 중심 위치 (평균/중앙값/절사평균/최빈값)'
-layout: post
-categories: statistics
-tags: Statistics
-comments: true
+categories: Statistics
+tag: [Statistics]
+toc: true
+author_profile: true
+sidebar:
+    nav: "docs"
 ---
 
 **Purpose of this Posting**

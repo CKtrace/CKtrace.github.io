@@ -1,9 +1,12 @@
 ---
-title: '[Statistics] 산포의 척도'
-layout: post
-categories: statistics
-tags: Statistics
-comments: true
+layout: single
+title:  '[Statistics] 산포의 척도'
+categories: Statistics
+tag: [Statistics]
+toc: true
+author_profile: true
+sidebar:
+    nav: "docs"
 ---
 
 **Purpose of this Posting**

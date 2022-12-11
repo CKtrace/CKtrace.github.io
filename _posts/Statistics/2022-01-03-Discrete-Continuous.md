@@ -1,10 +1,14 @@
 ---
+layout: single
 title: '[Statistics] 이산확률변수 VS 연속확률변수'
-layout: post
-categories: statistics
-tags: Statistics
-comments: true
+categories: Statistics
+tag: [Statistics]
+toc: true
+author_profile: true
+sidebar:
+    nav: "docs"
 ---
+
 
 **Purpose of this Posting**
 - 이산확률변수와 연속확률변수에 대해 알아봅니다.
