@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "custom" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "aqua" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "ko-KR"
@@ -21,7 +21,7 @@ title_separator          : "|"
 subtitle                 : "To Be a Better AI Researcher"
 name                     : "CKtrace"
 description              : "나를 위한, 누군가를 위한 기록"
-url                      : "https://cktrace.github.io/"
+url                      : "https://cktrace.com/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "CKtrace/CKtrace.github.io"
 teaser                   : "/assets/images/bobby_hill_logo.gif"
