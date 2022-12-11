@@ -1,6 +1,6 @@
 ---
 layout: single
-title: [Statistics] 표본 추출 방법'
+title: '[Statistics] 표본 추출 방법'
 categories: Statistics
 tag: [Statistics]
 toc: true
