@@ -1,135 +1,29 @@
+---
+layout: null
+---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-<loc>https://cktrace.github.io//statistics/Data-Classification/</loc>
-<lastmod>2021-01-14T00:00:00+09:00</lastmod>
-</url>
-<url>
-<loc>https://cktrace.github.io//statistics/Bayes'-theorem/</loc>
-<lastmod>2021-12-11T00:00:00+09:00</lastmod>
-</url>
-<url>
-<loc>https://cktrace.github.io//statistics/Distribution-Shape/</loc>
-<lastmod>2021-12-14T00:00:00+09:00</lastmod>
-</url>
-<url>
-<loc>https://cktrace.github.io//statistics/binomial-hypergeometric/</loc>
-<lastmod>2021-12-14T00:00:00+09:00</lastmod>
-</url>
-<url>
-<loc>https://cktrace.github.io//statistics/Monty-Hall/</loc>
-<lastmod>2021-12-15T00:00:00+09:00</lastmod>
-</url>
-<url>
-<loc>https://cktrace.github.io//statistics/Bias/</loc>
-<lastmod>2021-12-23T00:00:00+09:00</lastmod>
-</url>
-<url>
-<loc>https://cktrace.github.io//statistics/Poisson/</loc>
-<lastmod>2021-12-28T00:00:00+09:00</lastmod>
-</url>
-<url>
-<loc>https://cktrace.github.io//statistics/Covariance-Corr/</loc>
-<lastmod>2021-12-30T00:00:00+09:00</lastmod>
-</url>
-<url>
-<loc>https://cktrace.github.io//statistics/Pearson/</loc>
-<lastmod>2021-12-31T00:00:00+09:00</lastmod>
-</url>
-<url>
-<loc>https://cktrace.github.io//statistics/Normal-Distribution/</loc>
-<lastmod>2022-01-01T00:00:00+09:00</lastmod>
-</url>
-<url>
-<loc>https://cktrace.github.io//statistics/Probability/</loc>
-<lastmod>2022-01-02T00:00:00+09:00</lastmod>
-</url>
-<url>
-<loc>https://cktrace.github.io//statistics/Discrete-Continuous/</loc>
-<lastmod>2022-01-03T00:00:00+09:00</lastmod>
-</url>
-<url>
-<loc>https://cktrace.github.io//ai/AI-ML-DL-diff/</loc>
-<lastmod>2022-01-04T00:00:00+09:00</lastmod>
-</url>
-<url>
-<loc>https://cktrace.github.io//statistics/Center-Position/</loc>
-<lastmod>2022-01-05T00:00:00+09:00</lastmod>
-</url>
-<url>
-<loc>https://cktrace.github.io//statistics/Sampling-Method/</loc>
-<lastmod>2022-01-05T00:00:00+09:00</lastmod>
-</url>
-<url>
-<loc>https://cktrace.github.io//statistics/Weight/</loc>
-<lastmod>2022-01-06T00:00:00+09:00</lastmod>
-</url>
-<url>
-<loc>https://cktrace.github.io//statistics/Joint-Marginal/</loc>
-<lastmod>2022-01-08T00:00:00+09:00</lastmod>
-</url>
-<url>
-<loc>https://cktrace.github.io//statistics/Dispersion/</loc>
-<lastmod>2022-02-22T00:00:00+09:00</lastmod>
-</url>
-<url>
-<loc>https://cktrace.github.io//statistics/Coeff-Variance/</loc>
-<lastmod>2022-02-23T00:00:00+09:00</lastmod>
-</url>
-<url>
-<loc>https://cktrace.github.io//statistics/Data-Expression-Method/</loc>
-<lastmod>2022-02-25T00:00:00+09:00</lastmod>
-</url>
-<url>
-<loc>https://cktrace.github.io//database/About-DB/</loc>
-<lastmod>2022-05-30T00:00:00+09:00</lastmod>
-</url>
-<url>
-<loc>https://cktrace.github.io//ai/Artificial-Neural-Networks/</loc>
-<lastmod>2022-11-07T00:00:00+09:00</lastmod>
-</url>
-<url>
-<loc>https://cktrace.github.io//ai/ANN-Bias-Activation-Function/</loc>
-<lastmod>2022-11-10T00:00:00+09:00</lastmod>
-</url>
-<url>
-<loc>https://cktrace.github.io//ai/FNN/</loc>
-<lastmod>2022-11-20T00:00:00+09:00</lastmod>
-</url>
-<url>
-<loc>https://cktrace.github.io//ai/Optimal-Gradient-Descent/</loc>
-<lastmod>2022-11-21T00:00:00+09:00</lastmod>
-</url>
-<url>
-<loc>https://cktrace.github.io//categories/</loc>
-</url>
-<url>
-<loc>https://cktrace.github.io//</loc>
-</url>
-<url>
-<loc>https://cktrace.github.io//search/</loc>
-</url>
-<url>
-<loc>https://cktrace.github.io//tags/</loc>
-</url>
-<url>
-<loc>https://cktrace.github.io//page2/</loc>
-</url>
-<url>
-<loc>https://cktrace.github.io//page3/</loc>
-</url>
-<url>
-<loc>https://cktrace.github.io//page4/</loc>
-</url>
-<url>
-<loc>https://cktrace.github.io//page5/</loc>
-</url>
-<url>
-<loc>https://cktrace.github.io//google1525fb10aaad380d.html</loc>
-<lastmod>2023-01-02T02:32:59+09:00</lastmod>
-</url>
-<url>
-<loc>https://cktrace.github.io//naver742f9cb394c22af6d897e97521500558.html</loc>
-<lastmod>2023-01-02T02:32:59+09:00</lastmod>
-</url>
+  {% for post in site.posts %}
+    <url>
+      <loc>{{ site.url }}{{ post.url }}</loc>
+      {% if post.lastmod == null %}
+        <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+      {% else %}
+        <lastmod>{{ post.lastmod | date_to_xmlschema }}</lastmod>
+      {% endif %}
+
+      {% if post.sitemap.changefreq == null %}
+        <changefreq>weekly</changefreq>
+      {% else %}
+        <changefreq>{{ post.sitemap.changefreq }}</changefreq>
+      {% endif %}
+
+      {% if post.sitemap.priority == null %}
+          <priority>0.5</priority>
+      {% else %}
+        <priority>{{ post.sitemap.priority }}</priority>
+      {% endif %}
+
+    </url>
+  {% endfor %}
 </urlset>
