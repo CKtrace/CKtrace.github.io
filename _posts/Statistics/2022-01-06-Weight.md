@@ -7,6 +7,9 @@ toc: true
 author_profile: true
 sidebar:
     nav: "docs"
+sitemap :
+    changefreq : weekly
+    priority : 1.0
 ---
 
 
