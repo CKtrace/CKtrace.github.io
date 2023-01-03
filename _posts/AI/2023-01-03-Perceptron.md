@@ -36,7 +36,7 @@ AI 파트에서 퍼셉트론을 알아보는 이유는 신경망의 기원이 �
 
 위와 같은 과정을 식으로 나타내면 아래의 그림과 같습니다.
 
-<center><img src="https://user-images.githubusercontent.com/97859215/210367906-89d0a7c9-61b2-4ffb-a57c-3a1706c7e1bc.png" width="200" height="80"></center>
+<center><img src="https://user-images.githubusercontent.com/97859215/210367906-89d0a7c9-61b2-4ffb-a57c-3a1706c7e1bc.png" width="400" height="160"></center>
 
 <br>
 
@@ -46,7 +46,9 @@ AI 파트에서 퍼셉트론을 알아보는 이유는 신경망의 기원이 �
 
 위 식에서 임계값을 -b 로 치환하고 왼쪽 변으로 이항해주면 아래의 식으로 표현해줄 수 있습니다.
 
-<center><img src="https://user-images.githubusercontent.com/97859215/210371780-297dc892-ddd1-4534-9f97-a1db4a72489f.png" width="200" height="80"></center>
+<center><img src="https://user-images.githubusercontent.com/97859215/210371780-297dc892-ddd1-4534-9f97-a1db4a72489f.png" width="400" height="160"></center>
+
+<br>
 
 b 를 편향이라 하며 재구성한 식을 해석해보면 퍼셉트론은 각각의 입력 신호에 해당 가중치가 곱해진 값에 추가적으로 편향을 합한 값들의 합이 0보다 크거나 같을 때 1을 출력한다는 것입니다. 
 
