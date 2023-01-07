@@ -2,7 +2,7 @@
 layout: single
 title: '[AI] 퍼셉트론과 퍼셉트론의 한계'
 categories: AI
-tag: [AI, 밑바닥부터 시작하는 딥러닝]
+tag: [AI, Deep Learning from Scratch]
 toc: true
 author_profile: true
 sidebar:
