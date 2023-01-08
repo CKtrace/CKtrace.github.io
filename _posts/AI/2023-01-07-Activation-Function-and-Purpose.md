@@ -147,7 +147,7 @@ Sigmoid와 달리 해당 함수를 거쳐 재구성된 배열의 원소 총합�
 
 **Softmax Function Expression**
 
-<center><img src="https://user-images.githubusercontent.com/97859215/211149179-1020d93e-bfb2-4f02-b44c-67b7eae9714d.png" width="400" height="160"></center>
+<center><img src="https://user-images.githubusercontent.com/97859215/211149179-1020d93e-bfb2-4f02-b44c-67b7eae9714d.png" width="400" height="100"></center>
 
 <br>
 
@@ -160,7 +160,7 @@ Softmax의 수식을 확인하시면 자연 상수의 제곱이 존재하는데 
 
 그래서 아래와 같은 식의 변형이 필요합니다.
 
-<center><img src="https://user-images.githubusercontent.com/97859215/211150456-79700562-0428-485a-b2d9-db3ccab788b5.png" width="400" height="700"></center>
+<center><img src="https://user-images.githubusercontent.com/97859215/211150456-79700562-0428-485a-b2d9-db3ccab788b5.png" width="600" height="700"></center>
 
 <br>
 
