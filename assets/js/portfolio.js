@@ -8,10 +8,10 @@
 // Typing Animation
 // =============================================
 const TYPING_ROLES = [
-  'AI Researcher',
-  'ML Engineer',
-  'Deep Learning Dev',
-  'LLM Explorer',
+  'Junior AI Engineer',
+  'ML Researcher',
+  'Multi-Modal Explorer',
+  'Multi-Agent Developer',
   'Problem Solver',
 ];
 
