@@ -221,7 +221,7 @@
       </div>
       <div class="research__grid">
 
-        <div class="research-card research-card--ongoing reveal">
+        <div class="research-card research-card--ongoing reveal" data-modal="modal-r1">
           <div class="card__thumb">
             <img src="assets/images/project-dev-assistant.jpg" alt="Developer Assistant" onerror="this.parentElement.style.display='none'" />
           </div>
@@ -238,7 +238,7 @@
           </div>
         </div>
 
-        <div class="research-card reveal">
+        <div class="research-card reveal" data-modal="modal-r2">
           <div class="card__thumb">
             <img src="assets/images/paper-kcc2025.jpg" alt="KCC 2025 paper" onerror="this.parentElement.style.display='none'" />
           </div>
@@ -256,7 +256,7 @@
           </div>
         </div>
 
-        <div class="research-card reveal">
+        <div class="research-card reveal" data-modal="modal-r3">
           <div class="card__thumb">
             <img src="assets/images/paper-kiit2023.jpg" alt="KIIT 2023 paper" onerror="this.parentElement.style.display='none'" />
           </div>
@@ -274,7 +274,7 @@
           </div>
         </div>
 
-        <div class="research-card reveal">
+        <div class="research-card reveal" data-modal="modal-r4">
           <div class="card__thumb">
             <img src="assets/images/paper-ksc2022-crop.jpg" alt="KSC 2022 crop paper" onerror="this.parentElement.style.display='none'" />
           </div>
@@ -292,7 +292,7 @@
           </div>
         </div>
 
-        <div class="research-card reveal">
+        <div class="research-card reveal" data-modal="modal-r5">
           <div class="card__thumb">
             <img src="assets/images/paper-ksc2022-fetal.jpg" alt="KSC 2022 fetal health paper" onerror="this.parentElement.style.display='none'" />
           </div>
@@ -322,7 +322,7 @@
       </div>
       <div class="comp__grid">
 
-        <div class="comp-card reveal">
+        <div class="comp-card reveal" data-modal="modal-c1">
           <div class="card__thumb card__thumb--banner">
             <img src="assets/images/comp-hecto.jpg" alt="Hecto AI Challenge" onerror="this.parentElement.style.display='none'" />
           </div>
@@ -340,7 +340,7 @@
           </div>
         </div>
 
-        <div class="comp-card reveal">
+        <div class="comp-card reveal" data-modal="modal-c2">
           <div class="card__thumb card__thumb--banner">
             <img src="assets/images/comp-ev.jpg" alt="EV Hackathon" onerror="this.parentElement.style.display='none'" />
           </div>
@@ -358,7 +358,7 @@
           </div>
         </div>
 
-        <div class="comp-card reveal">
+        <div class="comp-card reveal" data-modal="modal-c3">
           <div class="card__thumb card__thumb--banner">
             <img src="assets/images/comp-construction.jpg" alt="Construction AI Competition" onerror="this.parentElement.style.display='none'" />
           </div>
@@ -494,6 +494,324 @@
       <p class="footer__sub">Seoul, South Korea</p>
     </div>
   </footer>
+
+  <!-- Modal Overlay -->
+  <div class="modal-overlay" id="modalOverlay"></div>
+
+  <!-- Research Modals -->
+  <div class="modal" id="modal-r1" role="dialog" aria-modal="true" aria-labelledby="modal-r1-title">
+    <button class="modal__close" aria-label="닫기">&#x2715;</button>
+    <div class="modal__img">
+      <img src="assets/images/project-dev-assistant.jpg" alt="Multi-Agent 챗봇" />
+    </div>
+    <div class="modal__body">
+      <div class="modal__meta">
+        <span class="research-card__status status--ongoing">진행 중</span>
+        <span class="research-card__area">Multi-Agent · LLM</span>
+      </div>
+      <h2 class="modal__title" id="modal-r1-title">Multi-Agent Orchestration 기반 개발자 커리어 향상 도우미 챗봇</h2>
+      <p class="modal__desc">비교적 소형 LLM들의 Multi-Agent 협업 시스템으로 개발자의 커리어 성장을 지원하는 챗봇 연구. 각 에이전트가 정보 분석, 경력 추천, 결과 검증 등 독립적인 역할을 수행하며 협력하는 오케스트레이션 아키텍처를 설계 및 구현. 현재 논문화 작업 진행 중.</p>
+      <div class="modal__info-grid">
+        <div class="modal__info-item">
+          <div class="modal__info-label">상태</div>
+          <div class="modal__info-value">논문화 진행 중</div>
+        </div>
+        <div class="modal__info-item">
+          <div class="modal__info-label">분야</div>
+          <div class="modal__info-value">Multi-Agent · LLM</div>
+        </div>
+      </div>
+      <div class="modal__tags">
+        <span class="modal__tag">LLM</span>
+        <span class="modal__tag">Multi-Agent</span>
+        <span class="modal__tag">Orchestration</span>
+        <span class="modal__tag">Python</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="modal-r2" role="dialog" aria-modal="true" aria-labelledby="modal-r2-title">
+    <button class="modal__close" aria-label="닫기">&#x2715;</button>
+    <div class="modal__img">
+      <img src="assets/images/paper-kcc2025.jpg" alt="KCC 2025" />
+    </div>
+    <div class="modal__body">
+      <div class="modal__meta">
+        <span class="research-card__status status--done">2025.07</span>
+        <span class="research-card__area">Multi-Modal · Vision</span>
+        <span class="badge badge--award">일반부문 우수논문상</span>
+      </div>
+      <h2 class="modal__title" id="modal-r2-title">멀티모달 유해 밈 탐지를 위한 Self-Attention 기반 이미지-텍스트 통합 모델</h2>
+      <p class="modal__desc">SNS에서 확산되는 유해 밈의 이미지-텍스트 복합 특성을 포착하기 위해 Self-Attention 기반 멀티모달 통합 모델을 제안. 이미지 인코더와 텍스트 인코더의 출력을 교차 어텐션으로 융합하여 단일 모달 대비 탐지 성능을 유의미하게 향상시켰으며, KCC 2025에서 일반부문 우수논문상을 수상.</p>
+      <div class="modal__info-grid">
+        <div class="modal__info-item">
+          <div class="modal__info-label">학회</div>
+          <div class="modal__info-value">KCC 2025</div>
+        </div>
+        <div class="modal__info-item">
+          <div class="modal__info-label">수상</div>
+          <div class="modal__info-value">일반부문 우수논문상</div>
+        </div>
+        <div class="modal__info-item">
+          <div class="modal__info-label">발표</div>
+          <div class="modal__info-value">2025년 7월</div>
+        </div>
+        <div class="modal__info-item">
+          <div class="modal__info-label">분야</div>
+          <div class="modal__info-value">Multi-Modal · Vision</div>
+        </div>
+      </div>
+      <div class="modal__tags">
+        <span class="modal__tag">Multi-Modal</span>
+        <span class="modal__tag">Self-Attention</span>
+        <span class="modal__tag">Vision Transformer</span>
+        <span class="modal__tag">NLP</span>
+        <span class="modal__tag">Meme Detection</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="modal-r3" role="dialog" aria-modal="true" aria-labelledby="modal-r3-title">
+    <button class="modal__close" aria-label="닫기">&#x2715;</button>
+    <div class="modal__img">
+      <img src="assets/images/paper-kiit2023.jpg" alt="KIIT 2023" />
+    </div>
+    <div class="modal__body">
+      <div class="modal__meta">
+        <span class="research-card__status status--done">2023.01</span>
+        <span class="research-card__area">Time-Series · IoT</span>
+        <span class="badge badge--kci">KCI 등재</span>
+      </div>
+      <h2 class="modal__title" id="modal-r3-title">카모플라주 치료 시스템을 위한 Sliding Window-LSTM 모델 기반 배터리 잔존 수명 예측</h2>
+      <p class="modal__desc">카모플라주 치료 시스템의 안정적 운용을 위해 Sliding Window 기반 LSTM 모델로 배터리 잔존 수명(RUL)을 예측하는 방법론을 제안. 윈도우 크기 조정을 통해 학습 데이터의 다양성을 확보하고 LSTM의 장기 의존성 포착 성능을 극대화. KCI 등재 저널에 게재.</p>
+      <div class="modal__info-grid">
+        <div class="modal__info-item">
+          <div class="modal__info-label">학회/저널</div>
+          <div class="modal__info-value">KIIT 2023</div>
+        </div>
+        <div class="modal__info-item">
+          <div class="modal__info-label">등재</div>
+          <div class="modal__info-value">KCI 등재</div>
+        </div>
+        <div class="modal__info-item">
+          <div class="modal__info-label">발표</div>
+          <div class="modal__info-value">2023년 1월</div>
+        </div>
+        <div class="modal__info-item">
+          <div class="modal__info-label">분야</div>
+          <div class="modal__info-value">Time-Series · IoT</div>
+        </div>
+      </div>
+      <div class="modal__tags">
+        <span class="modal__tag">LSTM</span>
+        <span class="modal__tag">Sliding Window</span>
+        <span class="modal__tag">Time-Series</span>
+        <span class="modal__tag">IoT</span>
+        <span class="modal__tag">Battery RUL</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="modal-r4" role="dialog" aria-modal="true" aria-labelledby="modal-r4-title">
+    <button class="modal__close" aria-label="닫기">&#x2715;</button>
+    <div class="modal__img">
+      <img src="assets/images/paper-ksc2022-crop.jpg" alt="KSC 2022 식물" />
+    </div>
+    <div class="modal__body">
+      <div class="modal__meta">
+        <span class="research-card__status status--done">2022.12</span>
+        <span class="research-card__area">Multi-Modal · Vision</span>
+        <span class="badge badge--award">학부생부문 장려상</span>
+      </div>
+      <h2 class="modal__title" id="modal-r4-title">멀티모달 데이터 기반 식물 피해 미세 진단</h2>
+      <p class="modal__desc">식물 병해충 피해를 조기에 탐지하기 위해 이미지 데이터(CNN)와 온습도·조도 등 환경 센서 시계열 데이터(Transformer)를 결합하는 CNN-Transformer 하이브리드 구조를 제안. 단일 모달 모델 대비 미세 진단 정확도를 향상시켜 스마트팜 환경에서의 적용 가능성을 입증. KSC 2022 학부생부문 장려상 수상.</p>
+      <div class="modal__info-grid">
+        <div class="modal__info-item">
+          <div class="modal__info-label">학회</div>
+          <div class="modal__info-value">KSC 2022</div>
+        </div>
+        <div class="modal__info-item">
+          <div class="modal__info-label">수상</div>
+          <div class="modal__info-value">학부생부문 장려상</div>
+        </div>
+        <div class="modal__info-item">
+          <div class="modal__info-label">발표</div>
+          <div class="modal__info-value">2022년 12월</div>
+        </div>
+        <div class="modal__info-item">
+          <div class="modal__info-label">분야</div>
+          <div class="modal__info-value">Multi-Modal · Vision</div>
+        </div>
+      </div>
+      <div class="modal__tags">
+        <span class="modal__tag">CNN</span>
+        <span class="modal__tag">Transformer</span>
+        <span class="modal__tag">Multi-Modal</span>
+        <span class="modal__tag">Time-Series</span>
+        <span class="modal__tag">Smart Farm</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="modal-r5" role="dialog" aria-modal="true" aria-labelledby="modal-r5-title">
+    <button class="modal__close" aria-label="닫기">&#x2715;</button>
+    <div class="modal__img">
+      <img src="assets/images/paper-ksc2022-fetal.jpg" alt="KSC 2022 환자 건강" />
+    </div>
+    <div class="modal__body">
+      <div class="modal__meta">
+        <span class="research-card__status status--done">2022.12</span>
+        <span class="research-card__area">Healthcare · ML</span>
+      </div>
+      <h2 class="modal__title" id="modal-r5-title">상관관계 기반 특징 개선 기법을 활용한 환자 건강 예측 모델</h2>
+      <p class="modal__desc">환자 건강 데이터에서 상관관계 분석을 통해 핵심 특징을 선별하고 모델 복잡도를 줄이면서도 예측 정확도를 유지하는 방법론을 제안. 불필요한 변수를 제거해 학습 효율을 높이고, 임상 환경에서의 빠른 진단 및 의사결정 지원 가능성을 입증. KSC 2022 발표.</p>
+      <div class="modal__info-grid">
+        <div class="modal__info-item">
+          <div class="modal__info-label">학회</div>
+          <div class="modal__info-value">KSC 2022</div>
+        </div>
+        <div class="modal__info-item">
+          <div class="modal__info-label">발표</div>
+          <div class="modal__info-value">2022년 12월</div>
+        </div>
+        <div class="modal__info-item">
+          <div class="modal__info-label">분야</div>
+          <div class="modal__info-value">Healthcare · ML</div>
+        </div>
+        <div class="modal__info-item">
+          <div class="modal__info-label">핵심 기법</div>
+          <div class="modal__info-value">Feature Selection</div>
+        </div>
+      </div>
+      <div class="modal__tags">
+        <span class="modal__tag">Feature Selection</span>
+        <span class="modal__tag">Correlation Analysis</span>
+        <span class="modal__tag">ML</span>
+        <span class="modal__tag">Healthcare</span>
+        <span class="modal__tag">Classification</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Competition Modals -->
+  <div class="modal" id="modal-c1" role="dialog" aria-modal="true" aria-labelledby="modal-c1-title">
+    <button class="modal__close" aria-label="닫기">&#x2715;</button>
+    <div class="modal__img">
+      <img src="assets/images/comp-hecto.jpg" alt="Hecto AI Challenge" />
+    </div>
+    <div class="modal__body">
+      <div class="modal__meta">
+        <div class="comp-card__rank comp-card__rank--special" style="font-size:0.78rem;padding:4px 12px;border-radius:999px;">HR 등록</div>
+        <span class="research-card__area">팀 프로젝트</span>
+      </div>
+      <h2 class="modal__title" id="modal-c1-title">HAI(하이)! — Hecto AI Challenge</h2>
+      <p class="modal__desc">Hecto 그룹의 채용 연계 AI 경진대회로, 우수 성과자를 인사팀 채용 풀에 직접 등록하는 방식으로 운영. 팀 내 모델 설계 및 데이터 전처리 파이프라인 구축을 90% 이상 담당하여 Hecto 인사팀 HR 등록 성과를 달성.</p>
+      <div class="modal__info-grid">
+        <div class="modal__info-item">
+          <div class="modal__info-label">주최</div>
+          <div class="modal__info-value">Hecto</div>
+        </div>
+        <div class="modal__info-item">
+          <div class="modal__info-label">결과</div>
+          <div class="modal__info-value">HR 채용 풀 등록</div>
+        </div>
+        <div class="modal__info-item">
+          <div class="modal__info-label">기간</div>
+          <div class="modal__info-value">2025.05.19 — 2025.06.16</div>
+        </div>
+        <div class="modal__info-item">
+          <div class="modal__info-label">기여도</div>
+          <div class="modal__info-value">90% (팀)</div>
+        </div>
+      </div>
+      <div class="modal__tags">
+        <span class="modal__tag">Machine Learning</span>
+        <span class="modal__tag">Data Pipeline</span>
+        <span class="modal__tag">채용 연계</span>
+        <span class="modal__tag">AI 경진대회</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="modal-c2" role="dialog" aria-modal="true" aria-labelledby="modal-c2-title">
+    <button class="modal__close" aria-label="닫기">&#x2715;</button>
+    <div class="modal__img">
+      <img src="assets/images/comp-ev.jpg" alt="전기차 가격 예측 해커톤" />
+    </div>
+    <div class="modal__body">
+      <div class="modal__meta">
+        <div class="comp-card__rank comp-card__rank--2nd" style="font-size:0.78rem;padding:4px 12px;border-radius:999px;">전체 2등</div>
+        <span class="research-card__area">개인 참가</span>
+      </div>
+      <h2 class="modal__title" id="modal-c2-title">전기차 가격 예측 해커톤 — 데이터로 EV를 읽다!</h2>
+      <p class="modal__desc">전기차의 스펙·배터리 용량·주행거리 등 다양한 피처를 분석하여 시장 가격을 예측하는 회귀 모델을 개발. 단독 참가로 전체 참가자 중 2위를 기록. 피처 엔지니어링과 앙상블 모델링을 통해 높은 예측 정확도를 달성.</p>
+      <div class="modal__info-grid">
+        <div class="modal__info-item">
+          <div class="modal__info-label">주최</div>
+          <div class="modal__info-value">DACON</div>
+        </div>
+        <div class="modal__info-item">
+          <div class="modal__info-label">결과</div>
+          <div class="modal__info-value">전체 2등 수상</div>
+        </div>
+        <div class="modal__info-item">
+          <div class="modal__info-label">기간</div>
+          <div class="modal__info-value">2024.12.02 — 2025.01.31</div>
+        </div>
+        <div class="modal__info-item">
+          <div class="modal__info-label">기여도</div>
+          <div class="modal__info-value">100% (개인)</div>
+        </div>
+      </div>
+      <div class="modal__tags">
+        <span class="modal__tag">Regression</span>
+        <span class="modal__tag">Feature Engineering</span>
+        <span class="modal__tag">Ensemble</span>
+        <span class="modal__tag">EDA</span>
+        <span class="modal__tag">DACON</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="modal-c3" role="dialog" aria-modal="true" aria-labelledby="modal-c3-title">
+    <button class="modal__close" aria-label="닫기">&#x2715;</button>
+    <div class="modal__img">
+      <img src="assets/images/comp-construction.jpg" alt="건설기계 AI 경진대회" />
+    </div>
+    <div class="modal__body">
+      <div class="modal__meta">
+        <div class="comp-card__rank comp-card__rank--award" style="font-size:0.78rem;padding:4px 12px;border-radius:999px;">수상권</div>
+        <span class="research-card__area">팀 프로젝트</span>
+      </div>
+      <h2 class="modal__title" id="modal-c3-title">건설기계 오일 상태 분류 AI 경진대회</h2>
+      <p class="modal__desc">건설기계 오일 센서 데이터(점도·산화도·수분 등)를 분석하여 오일 교환 주기를 판단하는 다중 분류 AI 모델을 개발. AWS 클라우드 인프라를 활용해 대용량 센서 데이터를 처리하였으며, 팀 합산 성과 기준 수상권에 진입.</p>
+      <div class="modal__info-grid">
+        <div class="modal__info-item">
+          <div class="modal__info-label">주최</div>
+          <div class="modal__info-value">AWS · 현대인프라코어</div>
+        </div>
+        <div class="modal__info-item">
+          <div class="modal__info-label">결과</div>
+          <div class="modal__info-value">수상권 진입</div>
+        </div>
+        <div class="modal__info-item">
+          <div class="modal__info-label">기간</div>
+          <div class="modal__info-value">2022.11.07 — 2022.12.12</div>
+        </div>
+        <div class="modal__info-item">
+          <div class="modal__info-label">기여도</div>
+          <div class="modal__info-value">90% (팀)</div>
+        </div>
+      </div>
+      <div class="modal__tags">
+        <span class="modal__tag">Classification</span>
+        <span class="modal__tag">AWS</span>
+        <span class="modal__tag">Sensor Data</span>
+        <span class="modal__tag">Oil Analysis</span>
+        <span class="modal__tag">현대인프라코어</span>
+      </div>
+    </div>
+  </div>
 
   <script src="assets/js/portfolio.js"></script>
 </body>

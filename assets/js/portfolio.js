@@ -279,6 +279,44 @@ function initCursorGlow() {
 }
 
 // =============================================
+// Modal / Popup
+// =============================================
+function initModals() {
+  const overlay = document.getElementById('modalOverlay');
+  const modals = document.querySelectorAll('.modal');
+  const triggers = document.querySelectorAll('[data-modal]');
+  if (!overlay || !modals.length) return;
+
+  function openModal(id) {
+    const modal = document.getElementById(id);
+    if (!modal) return;
+    overlay.classList.add('active');
+    modal.classList.add('active');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeAll() {
+    overlay.classList.remove('active');
+    modals.forEach(m => m.classList.remove('active'));
+    document.body.style.overflow = '';
+  }
+
+  triggers.forEach(el => {
+    el.addEventListener('click', () => openModal(el.dataset.modal));
+  });
+
+  overlay.addEventListener('click', closeAll);
+
+  document.querySelectorAll('.modal__close').forEach(btn => {
+    btn.addEventListener('click', e => { e.stopPropagation(); closeAll(); });
+  });
+
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') closeAll();
+  });
+}
+
+// =============================================
 // Init
 // =============================================
 document.addEventListener('DOMContentLoaded', () => {
@@ -288,6 +326,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initSmoothScroll();
   initParticles();
   initCursorGlow();
+  initModals();
 
   // Typing starts after hero animation
   setTimeout(typeRole, 1400);
