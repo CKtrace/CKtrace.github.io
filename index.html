@@ -49,9 +49,6 @@
       <canvas class="hero__particles" id="particles"></canvas>
     </div>
     <div class="hero__content">
-      <div class="hero__profile-wrap">
-        <img src="assets/images/profile.jpg" alt="KIM CHANKI" class="hero__profile" onerror="this.style.display='none'" />
-      </div>
       <p class="hero__greeting">안녕하세요, 저는</p>
       <h1 class="hero__name">KIM CHANKI</h1>
       <div class="hero__role">
@@ -96,6 +93,11 @@
         <h2 class="section__title">About Me</h2>
       </div>
       <div class="about__grid">
+        <div class="about__photo reveal">
+          <div class="about__photo-wrap">
+            <img src="assets/images/profile.jpg" alt="KIM CHANKI" onerror="this.parentElement.style.display='none'" />
+          </div>
+        </div>
         <div class="about__text reveal">
           <p>
             문제를 정의하고 효과적으로 개선하는데 집중하는 <strong>주니어 AI 엔지니어</strong> 김찬기입니다.
@@ -116,24 +118,6 @@
             <span class="tag">경상국립대학교</span>
             <span class="tag">AI Engineer</span>
             <span class="tag">Researcher</span>
-          </div>
-        </div>
-        <div class="about__stats reveal">
-          <div class="stat-card">
-            <span class="stat-card__num" data-target="4">0</span>
-            <span class="stat-card__label">Years of Study</span>
-          </div>
-          <div class="stat-card">
-            <span class="stat-card__num" data-target="5">0</span>
-            <span class="stat-card__label">Publications</span>
-          </div>
-          <div class="stat-card">
-            <span class="stat-card__num" data-target="3">0</span>
-            <span class="stat-card__label">Competitions</span>
-          </div>
-          <div class="stat-card">
-            <span class="stat-card__num" data-target="4">0</span>
-            <span class="stat-card__label">Labs</span>
           </div>
         </div>
       </div>
