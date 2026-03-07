@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: http://cktrace.github.io/sitemap.xml
