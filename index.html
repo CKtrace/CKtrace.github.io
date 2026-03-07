@@ -1,4 +1,368 @@
----
-layout: home
-author_profile: true
----
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CKtrace | AI Researcher & Developer</title>
+  <meta name="description" content="CKtrace의 포트폴리오 — AI Research, Machine Learning, Deep Learning" />
+  <link rel="stylesheet" href="assets/css/portfolio.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#hero" class="nav__logo">CK<span>trace</span></a>
+      <ul class="nav__links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact" class="nav__cta">Contact</a></li>
+      </ul>
+      <button class="nav__hamburger" id="hamburger" aria-label="메뉴 열기">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav__mobile" id="mobileMenu">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="hero__bg">
+      <div class="hero__orb hero__orb--1"></div>
+      <div class="hero__orb hero__orb--2"></div>
+      <div class="hero__orb hero__orb--3"></div>
+      <canvas class="hero__particles" id="particles"></canvas>
+    </div>
+    <div class="hero__content">
+      <p class="hero__greeting">안녕하세요, 저는</p>
+      <h1 class="hero__name">CKtrace</h1>
+      <div class="hero__role">
+        <span class="hero__role-prefix">I'm a </span>
+        <span class="hero__role-text" id="typingText"></span>
+        <span class="hero__cursor">|</span>
+      </div>
+      <p class="hero__desc">
+        AI와 데이터로 세상의 문제를 해결하는 것에 관심이 많은 개발자입니다.<br>
+        끊임없이 배우고, 기록하며, 성장합니다.
+      </p>
+      <div class="hero__actions">
+        <a href="#projects" class="btn btn--primary">프로젝트 보기</a>
+        <a href="#contact" class="btn btn--outline">연락하기</a>
+      </div>
+      <div class="hero__socials">
+        <a href="https://github.com/CKtrace" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+        </a>
+        <a href="mailto:brandonkimwork@gmail.com" aria-label="Email">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="hero__scroll">
+      <span>Scroll</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section__header reveal">
+        <span class="section__tag">/ 01</span>
+        <h2 class="section__title">About Me</h2>
+      </div>
+      <div class="about__grid">
+        <div class="about__text reveal">
+          <p>
+            저는 <strong>AI Research</strong>에 열정을 가진 개발자입니다.
+            Machine Learning과 Deep Learning을 기반으로 실제 문제를 해결하는 모델과 시스템을 만드는 것을 좋아합니다.
+          </p>
+          <p>
+            학습한 내용을 꾸준히 기록하고, 오픈소스에 기여하며 성장해나가고 있습니다.
+            새로운 기술을 빠르게 습득하고, 이를 실제 프로젝트에 적용하는 것을 즐깁니다.
+          </p>
+          <p>
+            현재는 <strong>LLM</strong>, <strong>Computer Vision</strong>, <strong>Data Engineering</strong> 분야를 중점적으로 탐구하고 있습니다.
+          </p>
+          <div class="about__tags">
+            <span class="tag">Seoul, Korea</span>
+            <span class="tag">AI Researcher</span>
+            <span class="tag">Open Source Contributor</span>
+          </div>
+        </div>
+        <div class="about__stats reveal">
+          <div class="stat-card">
+            <span class="stat-card__num" data-target="3">0</span>
+            <span class="stat-card__label">Years of Study</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-card__num" data-target="10">0</span>
+            <span class="stat-card__label">Projects</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-card__num" data-target="5">0</span>
+            <span class="stat-card__label">Publications</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-card__num" data-target="100">0</span>
+            <span class="stat-card__label">GitHub Commits</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="section section--alt" id="skills">
+    <div class="container">
+      <div class="section__header reveal">
+        <span class="section__tag">/ 02</span>
+        <h2 class="section__title">Tech Stack</h2>
+      </div>
+      <div class="skills__grid">
+        <div class="skill-category reveal">
+          <h3 class="skill-category__title">
+            <span class="skill-category__icon">&#x1F9E0;</span>
+            AI / ML
+          </h3>
+          <div class="skill-tags">
+            <span class="skill-tag skill-tag--primary">PyTorch</span>
+            <span class="skill-tag skill-tag--primary">TensorFlow</span>
+            <span class="skill-tag skill-tag--primary">Transformers</span>
+            <span class="skill-tag skill-tag--primary">LangChain</span>
+            <span class="skill-tag skill-tag--primary">Scikit-learn</span>
+            <span class="skill-tag skill-tag--primary">OpenCV</span>
+          </div>
+        </div>
+        <div class="skill-category reveal">
+          <h3 class="skill-category__title">
+            <span class="skill-category__icon">&#x1F4BB;</span>
+            Languages
+          </h3>
+          <div class="skill-tags">
+            <span class="skill-tag skill-tag--secondary">Python</span>
+            <span class="skill-tag skill-tag--secondary">JavaScript</span>
+            <span class="skill-tag skill-tag--secondary">TypeScript</span>
+            <span class="skill-tag skill-tag--secondary">SQL</span>
+            <span class="skill-tag skill-tag--secondary">Bash</span>
+          </div>
+        </div>
+        <div class="skill-category reveal">
+          <h3 class="skill-category__title">
+            <span class="skill-category__icon">&#x2699;&#xFE0F;</span>
+            DevOps / Tools
+          </h3>
+          <div class="skill-tags">
+            <span class="skill-tag skill-tag--tertiary">Docker</span>
+            <span class="skill-tag skill-tag--tertiary">Git</span>
+            <span class="skill-tag skill-tag--tertiary">Linux</span>
+            <span class="skill-tag skill-tag--tertiary">FastAPI</span>
+            <span class="skill-tag skill-tag--tertiary">AWS</span>
+          </div>
+        </div>
+        <div class="skill-category reveal">
+          <h3 class="skill-category__title">
+            <span class="skill-category__icon">&#x1F4CA;</span>
+            Data
+          </h3>
+          <div class="skill-tags">
+            <span class="skill-tag skill-tag--quaternary">Pandas</span>
+            <span class="skill-tag skill-tag--quaternary">NumPy</span>
+            <span class="skill-tag skill-tag--quaternary">Matplotlib</span>
+            <span class="skill-tag skill-tag--quaternary">Jupyter</span>
+            <span class="skill-tag skill-tag--quaternary">PostgreSQL</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section__header reveal">
+        <span class="section__tag">/ 03</span>
+        <h2 class="section__title">Projects</h2>
+      </div>
+      <div class="projects__grid">
+
+        <article class="project-card reveal">
+          <div class="project-card__header">
+            <div class="project-card__icon">&#x1F916;</div>
+            <div class="project-card__links">
+              <a href="https://github.com/CKtrace" target="_blank" rel="noopener" aria-label="GitHub">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-card__title">Project 01</h3>
+          <p class="project-card__desc">
+            프로젝트 설명을 여기에 작성하세요. 어떤 문제를 해결했는지, 어떤 기술을 사용했는지 간략히 서술합니다.
+          </p>
+          <div class="project-card__tags">
+            <span>Python</span>
+            <span>PyTorch</span>
+            <span>FastAPI</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-card__header">
+            <div class="project-card__icon">&#x1F4D6;</div>
+            <div class="project-card__links">
+              <a href="https://github.com/CKtrace" target="_blank" rel="noopener" aria-label="GitHub">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-card__title">Project 02</h3>
+          <p class="project-card__desc">
+            두 번째 프로젝트 설명입니다. LLM 파인튜닝, RAG 파이프라인, 또는 CV 모델 등 대표 프로젝트를 기입하세요.
+          </p>
+          <div class="project-card__tags">
+            <span>LangChain</span>
+            <span>OpenAI</span>
+            <span>Docker</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-card__header">
+            <div class="project-card__icon">&#x1F4CA;</div>
+            <div class="project-card__links">
+              <a href="https://github.com/CKtrace" target="_blank" rel="noopener" aria-label="GitHub">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-card__title">Project 03</h3>
+          <p class="project-card__desc">
+            세 번째 프로젝트 설명입니다. 데이터 분석, 모델 학습, 배포 파이프라인 등의 내용을 기술하세요.
+          </p>
+          <div class="project-card__tags">
+            <span>Pandas</span>
+            <span>Scikit-learn</span>
+            <span>AWS</span>
+          </div>
+        </article>
+
+        <article class="project-card project-card--cta reveal">
+          <div class="project-card__cta-inner">
+            <span>&#x1F4C2;</span>
+            <p>더 많은 프로젝트를</p>
+            <p>GitHub에서 확인하세요</p>
+            <a href="https://github.com/CKtrace" target="_blank" rel="noopener" class="btn btn--outline">GitHub 방문</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section class="section section--alt" id="experience">
+    <div class="container">
+      <div class="section__header reveal">
+        <span class="section__tag">/ 04</span>
+        <h2 class="section__title">Experience</h2>
+      </div>
+      <div class="timeline">
+
+        <div class="timeline__item reveal">
+          <div class="timeline__dot"></div>
+          <div class="timeline__content">
+            <span class="timeline__period">2025 — Present</span>
+            <h3 class="timeline__title">AI Researcher</h3>
+            <p class="timeline__company">Organization / Company</p>
+            <p class="timeline__desc">
+              역할과 주요 성과를 여기에 작성하세요. 어떤 기술을 사용했는지, 어떤 결과를 냈는지 서술합니다.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline__item reveal">
+          <div class="timeline__dot"></div>
+          <div class="timeline__content">
+            <span class="timeline__period">2023 — 2025</span>
+            <h3 class="timeline__title">Machine Learning Engineer (Intern)</h3>
+            <p class="timeline__company">Organization / Company</p>
+            <p class="timeline__desc">
+              인턴십 또는 이전 경력의 주요 내용을 작성하세요.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline__item reveal">
+          <div class="timeline__dot"></div>
+          <div class="timeline__content">
+            <span class="timeline__period">2019 — 2025</span>
+            <h3 class="timeline__title">컴퓨터공학 학사</h3>
+            <p class="timeline__company">대학교 이름</p>
+            <p class="timeline__desc">
+              전공, 수상 내역, 논문 등 학력 관련 내용을 작성하세요.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section__header reveal">
+        <span class="section__tag">/ 05</span>
+        <h2 class="section__title">Get In Touch</h2>
+      </div>
+      <div class="contact__wrapper reveal">
+        <div class="contact__left">
+          <p class="contact__lead">
+            새로운 기회, 협업, 또는 단순한 인사도 환영합니다.<br>
+            언제든지 편하게 연락 주세요.
+          </p>
+          <div class="contact__links">
+            <a href="mailto:brandonkimwork@gmail.com" class="contact__link">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+              brandonkimwork@gmail.com
+            </a>
+            <a href="https://github.com/CKtrace" target="_blank" rel="noopener" class="contact__link">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+              github.com/CKtrace
+            </a>
+          </div>
+        </div>
+        <div class="contact__right">
+          <a href="mailto:brandonkimwork@gmail.com" class="contact__btn">
+            이메일 보내기
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer__copy">&copy; 2026 CKtrace. Designed &amp; Built with passion.</p>
+      <p class="footer__sub">Seoul, Korea</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/portfolio.js"></script>
+</body>
+</html>
