@@ -1327,6 +1327,27 @@ img { max-width: 100%; display: block; }
   font-weight: 500;
 }
 
+.research-card__more,
+.comp-card__more {
+  margin-left: auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.72rem;
+  font-family: var(--font-mono);
+  color: var(--primary-light);
+  font-weight: 600;
+  white-space: nowrap;
+  transition: color var(--transition), transform var(--transition), opacity var(--transition);
+}
+
+.research-card__more::after,
+.comp-card__more::after {
+  content: '→';
+  font-size: 0.72rem;
+  transition: transform var(--transition);
+}
+
 /* =============================================
    Competition Cards
    ============================================= */
@@ -1425,7 +1446,6 @@ img { max-width: 100%; display: block; }
 
 .comp-card__footer {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding-top: 12px;
   border-top: 1px solid var(--border);
@@ -1445,6 +1465,16 @@ img { max-width: 100%; display: block; }
   color: var(--cyan-light);
   font-family: var(--font-mono);
   font-weight: 600;
+}
+
+.research-card:hover .research-card__more,
+.comp-card:hover .comp-card__more {
+  color: var(--primary-dark);
+}
+
+.research-card:hover .research-card__more::after,
+.comp-card:hover .comp-card__more::after {
+  transform: translateX(2px);
 }
 
 /* =============================================
@@ -1694,13 +1724,13 @@ img { max-width: 100%; display: block; }
   margin-bottom: 10px;
 }
 .modal__research-title {
-  font-size: 0.75rem;
+  font-size: 0.86rem;
   font-family: var(--font-mono);
   color: var(--primary-light);
   text-transform: uppercase;
-  letter-spacing: 0.08em;
-  margin-bottom: 7px;
-  font-weight: 600;
+  letter-spacing: 0.03em;
+  margin-bottom: 10px;
+  font-weight: 800;
 }
 .modal__research-body {
   font-size: 0.875rem;
@@ -1785,6 +1815,52 @@ img { max-width: 100%; display: block; }
   letter-spacing: 0.06em;
   text-transform: uppercase;
   margin-bottom: 5px;
+}
+
+.modal__research-section ul {
+  margin: 7px 0 0;
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.modal__research-section li {
+  padding-left: 18px;
+  position: relative;
+  font-size: 0.86rem;
+  color: var(--text-subtle);
+  line-height: 1.65;
+}
+
+.modal__research-section li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  top: 4px;
+  color: var(--primary);
+  font-size: 0.7rem;
+}
+
+.modal__research-figure--diagram {
+background: #fff;
+}
+
+.modal__research-figure--diagram img {
+width: 100%;
+max-height: 460px;
+object-fit: contain;
+object-position: center;
+background: #fff;
+padding: 12px;
+}
+
+@media (max-width: 600px) {
+.modal__research-figure--diagram img {
+max-height: 360px;
+padding: 8px;
+}
 }
 
 /* Clickable cards */
