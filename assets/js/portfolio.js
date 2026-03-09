@@ -11,7 +11,7 @@ const TYPING_ROLES = [
   'Junior AI Engineer',
   'ML Researcher',
   'Multi-Modal Explorer',
-  'Multi-Agent Developer',
+  'Multi-Agent Orchestrator',
   'Problem Solver',
 ];
 
