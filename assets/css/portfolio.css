@@ -1524,10 +1524,8 @@ img { max-width: 100%; display: block; }
   background: #ffffff;
 }
 .card__thumb--logo img {
-  width: auto;
-  height: auto;
-  max-width: 70%;
-  max-height: 60%;
+  width: 120px;
+  height: 120px;
   object-fit: contain;
   border-radius: 0;
 }
