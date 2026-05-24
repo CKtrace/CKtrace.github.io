@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 72" role="img" aria-label="SixSecond logo">
+  <!-- Background transparent for flexibility -->
+  <rect width="300" height="72" fill="#ffffff" rx="4"/>
+
+  <!-- Icon group centered vertically at y=36 -->
+  <g transform="translate(36,36)">
+    <!-- Dark green filled circle background -->
+    <circle cx="0" cy="0" r="22" fill="#1b4332"/>
+
+    <!-- Circular arrow arc: goes ~300deg clockwise from top-right, white -->
+    <!-- Arc path: starts top-right, sweeps around, ends with arrowhead bottom-right -->
+    <path d="M 8,-20
+             A 21 21 0 1 1 19,9"
+          fill="none" stroke="#ffffff" stroke-width="3.8" stroke-linecap="round"/>
+
+    <!-- Arrowhead pointing down-right -->
+    <polyline points="14,3 19,9 13,12"
+              fill="none" stroke="#ffffff" stroke-width="3.8"
+              stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text
+    x="72" y="45"
+    font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif"
+    font-size="28"
+    font-weight="700"
+    fill="#0d1f12"
+    letter-spacing="-0.3"
+  >SixSecond</text>
+</svg>

@@ -1515,6 +1515,23 @@ img { max-width: 100%; display: block; }
   object-position: center;
 }
 
+/* Logo-style thumbnail: contain + centered with padding */
+.card__thumb--logo {
+  height: var(--img-research-h);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+}
+.card__thumb--logo img {
+  width: auto;
+  height: auto;
+  max-width: 70%;
+  max-height: 60%;
+  object-fit: contain;
+  border-radius: 0;
+}
+
 .card__thumb--concept {
   height: var(--img-research-h);
   display: flex;
