@@ -136,6 +136,22 @@
         <div class="timeline__item reveal">
           <div class="timeline__dot timeline__dot--active"></div>
           <div class="timeline__content">
+            <span class="timeline__period">2026.03 — Present</span>
+            <h3 class="timeline__title">개인 프로젝트 · Personal SaaS Project</h3>
+            <p class="timeline__company">SixSecond — AI 기반 이력서 분석 및 채용공고 매칭 서비스</p>
+            <ul class="timeline__list">
+              <li>취업준비생이 이력서 약점·채용공고 매칭·ATS 적합도를 객관적으로 파악하기 어렵다는 문제를 정의</li>
+              <li>LLM 기반 이력서 분석, ATS 피드백, 채용공고 매칭, 자기소개서 초안 생성, 면접 대비를 하나의 AI 워크플로우로 설계 및 직접 구현</li>
+              <li>실제 사용자 피드백을 반영해 분석 결과 표현과 자기소개서 생성 흐름을 개선했으며, 서비스 도메인 배포 및 베타 사용자 검증 진행 중
+                <span class="badge badge--ongoing">베타 운영 중</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline__item reveal">
+          <div class="timeline__dot timeline__dot--active"></div>
+          <div class="timeline__content">
             <span class="timeline__period">2025.09 — Present</span>
             <h3 class="timeline__title">학부연구생 · Undergraduate Researcher</h3>
             <p class="timeline__company">경상국립대학교 생명정보지능연구실 (Bii LAB)</p>
@@ -226,6 +242,24 @@
         <h2 class="section__title">Research & Papers</h2>
       </div>
       <div class="research__grid">
+
+        <div class="research-card research-card--ongoing reveal" data-modal="modal-sixsecond">
+          <div class="card__thumb card__thumb--concept card__thumb--concept-sixsecond">
+            <span class="card__thumb--concept-label">Personal SaaS · 2026 – Present</span>
+            <span class="card__thumb--concept-title" style="font-size:1.1rem;">SixSecond</span>
+            <span class="card__thumb--concept-label" style="font-size:0.62rem;opacity:0.8;">AI Resume Analysis & Job Matching</span>
+          </div>
+          <div class="research-card__top">
+            <span class="research-card__status status--ongoing">베타 운영 중</span>
+            <span class="research-card__area">LLM · SaaS · AI Workflow</span>
+          </div>
+          <h3 class="research-card__title">SixSecond — AI 기반 이력서 분석 및 채용공고 매칭 서비스</h3>
+          <p class="research-card__desc">이력서 약점 분석, ATS 피드백, 채용공고 매칭, 자기소개서 초안 생성을 하나의 AI 워크플로우로 통합한 개인 SaaS 프로젝트</p>
+          <div class="research-card__footer">
+            <span class="research-card__conf">sixsecond.org — 서비스 운영 중</span>
+            <span class="research-card__more">상세 보기</span>
+          </div>
+        </div>
 
         <div class="research-card research-card--ongoing reveal" data-modal="modal-r6">
           <div class="card__thumb card__thumb--concept">
@@ -533,6 +567,72 @@
 
   <!-- Modal Overlay -->
   <div class="modal-overlay" id="modalOverlay"></div>
+
+<!-- SixSecond Modal -->
+<div class="modal" id="modal-sixsecond" role="dialog" aria-modal="true" aria-labelledby="modal-sixsecond-title">
+  <button class="modal__close" aria-label="닫기">&#x2715;</button>
+  <div class="modal__img card__thumb--concept card__thumb--concept-sixsecond" style="height:220px;">
+    <span class="card__thumb--concept-label">Personal SaaS · 2026 — Present</span>
+    <span class="card__thumb--concept-title" style="font-size:1.3rem;">SixSecond</span>
+    <span class="card__thumb--concept-label" style="font-size:0.62rem;opacity:0.8;">AI Resume Analysis & Job Matching</span>
+  </div>
+  <div class="modal__body">
+    <div class="modal__meta">
+      <span class="research-card__status status--ongoing">베타 운영 중</span>
+      <span class="research-card__area">LLM · SaaS · AI Workflow</span>
+    </div>
+    <h2 class="modal__title" id="modal-sixsecond-title">SixSecond — AI 기반 이력서 분석 및 채용공고 매칭 서비스</h2>
+    <p class="modal__desc">
+      취업준비생이 자신의 이력서 약점, 채용공고와의 매칭 여부, ATS 적합도를 객관적으로 파악하기 어렵다는 문제를 해결하기 위해 직접 설계하고 운영 중인 AI SaaS 서비스입니다.
+    </p>
+    <div class="modal__research">
+      <div class="modal__research-section">
+        <h4 class="modal__research-title">프로젝트 배경</h4>
+        <p class="modal__research-body">
+          취업 준비 과정에서 이력서의 객관적인 약점 파악, 채용공고와의 적합도 분석, ATS(지원자 추적 시스템) 관점에서의 피드백을 얻기 어렵다는 현실적인 문제에서 출발했습니다.
+        </p>
+      </div>
+      <div class="modal__research-section">
+        <h4 class="modal__research-title">구현 내용</h4>
+        <p class="modal__research-body">
+          LLM 기반 이력서 분석, ATS 관점 피드백, 채용공고 매칭, 자기소개서 초안 생성, 면접 대비를 하나의 AI 워크플로우로 설계했습니다.
+          사용자 입력 문서를 구조화하고 분석 프롬프트, 결과 포맷, UX 흐름을 직접 설계·구현하여 웹 서비스로 운영하고 있습니다.
+        </p>
+      </div>
+      <div class="modal__research-section">
+        <h4 class="modal__research-title">현재 상태</h4>
+        <p class="modal__research-body">
+          실제 사용자 피드백을 반영해 분석 결과 표현과 자기소개서 생성 흐름을 지속적으로 개선하고 있으며, 서비스 도메인 배포 및 베타 사용자 검증을 진행 중입니다.
+        </p>
+      </div>
+    </div>
+    <div class="modal__info-grid">
+      <div class="modal__info-item">
+        <div class="modal__info-label">상태</div>
+        <div class="modal__info-value">베타 운영 중</div>
+      </div>
+      <div class="modal__info-item">
+        <div class="modal__info-label">링크</div>
+        <div class="modal__info-value"><a href="https://sixsecond.org" target="_blank" rel="noopener">sixsecond.org</a></div>
+      </div>
+      <div class="modal__info-item">
+        <div class="modal__info-label">기간</div>
+        <div class="modal__info-value">2026.03 — Present</div>
+      </div>
+      <div class="modal__info-item">
+        <div class="modal__info-label">분야</div>
+        <div class="modal__info-value">LLM · SaaS · AI Workflow</div>
+      </div>
+    </div>
+    <div class="modal__tags">
+      <span class="modal__tag">LLM</span>
+      <span class="modal__tag">SaaS</span>
+      <span class="modal__tag">AI Workflow</span>
+      <span class="modal__tag">Resume Analysis</span>
+      <span class="modal__tag">ATS</span>
+    </div>
+  </div>
+</div>
 
 <!-- Research Modals -->
 <div class="modal" id="modal-r1" role="dialog" aria-modal="true" aria-labelledby="modal-r1-title">
